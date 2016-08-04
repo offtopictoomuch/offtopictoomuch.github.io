@@ -53,6 +53,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 section {
 	max-width: 650px;
 	padding: 0px 0px 50px 0px;
