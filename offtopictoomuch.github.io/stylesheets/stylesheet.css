@@ -1,0 +1,32 @@
+* {
+	margin: 0; padding: 0;
+}
+
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	overflow: hidden;
+}
+
+h1 {
+	color: #727477;
+}
+
+a {
+	color: #91A18E;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+#title {
+	font-size: 3.25em;
+}
+
+#bigass-header {
+	position: fixed;
+	z-index: 999;
+}
+
