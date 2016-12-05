@@ -34,11 +34,16 @@ h1 {
 }
 
 hr {
+	border: 0;
+	outline: none;
+	height: 3px;
+	background: url("http://madebygraham.com/midnight/images/hr.gif") center center repeat-x;
 	display: block;
 	-webkit-margin-before: 0.5em;
     -webkit-margin-after: 0.5em;
     -webkit-margin-start: auto;
     -webkit-margin-end: auto;
+    padding-bottom:20px;
 }
 
 h1, h2, h3 {
@@ -91,7 +96,7 @@ section #title p {
 	color: #d7cfbe;
 	font-weight: normal;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	margin: 0 0 20px;
+	margin: 0 0 10px;
 }
 
 
