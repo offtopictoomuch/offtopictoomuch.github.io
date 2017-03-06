@@ -9,12 +9,16 @@ body {
 	overflow: hidden;
 }
 
-h1 {
-	color: #727477;
+img {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 
-a {
-	color: #91A18E;
+h1, a{
+	color: #C9BBBB;
 }
 
 a:hover{
@@ -23,10 +27,18 @@ a:hover{
 
 #title {
 	font-size: 3.25em;
+	padding-top: 100px;
+	padding-bottom: 0px;
 }
 
 #bigass-header {
 	position: fixed;
-	z-index: 999;
+	padding-left: 100px;
+	/*ITS*/
+	z-index: 9001;
 }
 
+#landscape {
+	width: 100%;
+	height: auto;
+}
