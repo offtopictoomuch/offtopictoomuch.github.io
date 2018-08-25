@@ -1,0 +1,68 @@
+body {
+	text-align: center;
+	overflow-x: hidden;
+}
+
+hr {
+	color: black;
+	size: 30px;
+	align: left;
+	width: 90%;
+	z-index: 999;
+}
+
+h2 {
+	font-family:'Roboto', sans-serif;
+	font-size: 60px;
+	padding-bottom: 0;
+}
+
+p {
+	font-size: 35px;
+}
+
+#introduction {
+	width: 50%;
+	margin: auto;
+}
+
+#sidebar {
+	height: 100%;
+	width: 60px;
+	position: fixed;
+	z-index: 420; /* blaze itttttt */
+	top: 0;
+	left: 0;
+	background-color: #181818;
+	overflow-x: hidden;
+}
+
+#content {
+	margin-left: 52px;
+	padding-left: 0px;
+	margin-top: -8px;
+}
+
+#beach {
+	width: 120%;
+	position: static;
+	opacity: 0.9;
+}
+
+#title {
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 150px;
+	letter-spacing: 25px;
+	position: relative;
+	margin-top: -37%;
+	padding-bottom: 300px;
+	opacity: 0.85;
+}
+
+#one {
+	position: relative;
+    text-align: center;
+    overflow-x: hidden;
+}
+
