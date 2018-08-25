@@ -1,13 +1,12 @@
 body {
-	text-align: center;
 	overflow-x: hidden;
+	background-color: #ECE5D5;
 }
 
 hr {
 	color: black;
 	size: 30px;
 	align: left;
-	width: 90%;
 	z-index: 999;
 }
 
@@ -15,14 +14,20 @@ h2 {
 	font-family:'Roboto', sans-serif;
 	font-size: 60px;
 	padding-bottom: 0;
+	float: left;
+	display: block;
+	padding-left: -50px;
 }
 
 p {
-	font-size: 35px;
+	margin-top: 0;
+	font-size: 25px;
+	float: left;
+	font-family: 'Roboto';
 }
 
 #introduction {
-	width: 50%;
+	width: 80%;
 	margin: auto;
 }
 
@@ -41,6 +46,8 @@ p {
 	margin-left: 52px;
 	padding-left: 0px;
 	margin-top: -8px;
+	width: 100%;
+	background-color: #ECE5D5;
 }
 
 #beach {
@@ -64,5 +71,6 @@ p {
 	position: relative;
     text-align: center;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
