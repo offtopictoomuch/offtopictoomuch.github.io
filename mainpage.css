@@ -1,6 +1,7 @@
 body {
 	overflow-x: hidden;
 	background-color: #ECE5D5;
+	color: grey;
 }
 
 hr {
@@ -14,6 +15,7 @@ h2 {
 	font-family:'Roboto', sans-serif;
 	font-size: 60px;
 	padding-bottom: 0;
+	margin-bottom: 15px;
 	float: left;
 	display: block;
 	padding-left: -50px;
@@ -54,6 +56,8 @@ p {
 	width: 120%;
 	position: static;
 	opacity: 0.9;
+	overflow-y: hidden;
+	display: block;
 }
 
 #title {
@@ -63,8 +67,9 @@ p {
 	letter-spacing: 25px;
 	position: relative;
 	margin-top: -37%;
-	padding-bottom: 300px;
 	opacity: 0.85;
+	padding-bottom: 250px;
+	display: none;
 }
 
 #one {
