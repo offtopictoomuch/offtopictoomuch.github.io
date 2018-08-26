@@ -32,6 +32,10 @@ p {
 	display: block;
 }
 
+.phonetext {
+	display: none;
+}
+
 #introduction {
 	width: 75%;
 	margin: auto;
@@ -91,3 +95,50 @@ p {
 	z-index: -100;
 }
 
+
+/* for all phones*/
+@media only screen and (max-width: 500px) {
+	h2 {
+		font-size: 45px;
+	}
+
+	p {
+		font-size: 25px;
+	}
+
+	.phonetext {
+		display: block;
+	}
+
+  	#sidebar {
+    	display: none;
+  	}
+
+  	#beach {
+  		background-size: cover;
+  	}
+
+  	#content {
+  		width: 100%;
+  		margin-left: 0px;
+  	}
+
+  	#title {
+  		font-size: 50px;
+  		letter-spacing: 0;
+  		padidng-bottom: 0px;
+  		color: black;
+  	}
+
+  	#one {
+  		
+  	}
+
+}
+/*iPad (iPad Pro works fine for the regular version)*/
+@media only screen and (min-width: 601px){
+
+  	#title {
+  		font-size: 125px;
+  	}
+}
