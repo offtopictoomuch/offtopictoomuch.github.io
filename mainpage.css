@@ -4,7 +4,6 @@ body {
 	background-color: white;
 	color: grey;
 	margin: 0;
-	
 }
 
 hr {
@@ -38,6 +37,10 @@ i {
 	font-size: 90px;
 	color: darkblue;
 	padding: 0px 5px;
+}
+
+i:hover {
+	opacity: 0.5;
 }
 
 .media {
@@ -132,7 +135,6 @@ i {
 	-ms-transform: translate(-50px, 0); /* IE 9 */
     -webkit-transform: translate(-50px, 0); /* Safari */
     transform: translate(-50px, 0); /* Standard syntax */
-    border-radius: 1px;
 	
 }
 
@@ -144,6 +146,12 @@ i {
 
 	p {
 		font-size: 25px;
+	}
+
+	i {
+		font-size: 80px;
+		margin-top: 0px;
+		padding: 0;
 	}
 
 	.phonetext {
@@ -170,10 +178,22 @@ i {
   		color: white;
   	}
 
-  	#one {
-  		
+  	#footer {
+  		margin-left: 0px;
+  		padding-left: 0px;
   	}
 
+  	#social-media {
+  		-ms-transform: translate(0px, 0); /* IE 9 */
+    	-webkit-transform: translate(0px, 0); /* Safari */
+    	transform: translate(0px, 0); /* Standard syntax */
+    	width: 100%;
+  	}
+
+  	.media {
+		display: block;
+		width: 100%;
+	}
 }
 /*iPad (iPad Pro works fine for the regular version)*/
 @media only screen and (min-width: 601px){
